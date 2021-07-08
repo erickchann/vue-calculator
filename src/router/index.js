@@ -7,14 +7,6 @@ const routes = [
   {
     path: '/',
     component: () => import('@/views/Home.vue')
-  },
-  {
-    path: '/calculator1',
-    component: () => import('@/views/Calculator1.vue')
-  },
-  {
-    path: '/calculator2',
-    component: () => import('@/views/Calculator2.vue')
   }
 ]
 
